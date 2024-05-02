@@ -1,0 +1,60 @@
+body{
+    background-color: rgb(105, 110, 117);
+    overflow: hidden;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center horizontally */
+    min-height: 100vh; /* Ensure the container takes the full viewport height */
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.table{
+    display: flex;
+    justify-content: center;
+    height: 50vh;
+    align-self: center;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin-top: 25px;
+    overflow: auto;
+}
+
+td, th {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 10px 20px;
+}
+
+.newBook-button{
+    border: solid 1px black;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.newBook-button:hover{
+    background-color: black;
+    color: white;
+
+}
+
+.newBook-button-container {
+    display: flex;
+    width: 455px;
+    justify-content: flex-end; /* Align to the right */
+}
+
