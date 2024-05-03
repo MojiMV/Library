@@ -20,8 +20,9 @@ body{
 .table{
     display: flex;
     justify-content: center;
-    height: 50vh;
+    height: 75vh;
     align-self: center;
+    overflow: auto;
 }
 
 table {
@@ -30,7 +31,6 @@ table {
     letter-spacing: 1px;
     font-size: 0.8rem;
     margin-top: 25px;
-    overflow: auto;
 }
 
 td, th {
@@ -53,8 +53,9 @@ td, th {
 }
 
 .newBook-button-container {
+    margin-top: 25px;
     display: flex;
-    width: 455px;
+    width: 542px;
     justify-content: flex-end; /* Align to the right */
 }
 
