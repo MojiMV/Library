@@ -55,7 +55,36 @@ td, th {
 .newBook-button-container {
     margin-top: 25px;
     display: flex;
-    width: 542px;
-    justify-content: flex-end; /* Align to the right */
+    justify-content: flex-end;
 }
 
+.newBut-form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.radioButtons-container{
+    display: flex;
+    gap: 10px;
+}
+
+.dialog-buttons{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.dialog-buttons > button{
+    border: solid 1px black;
+    background-color: transparent;
+    padding: 5px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.dialog-buttons > button:hover{
+    background-color: black;
+    color: white;
+}
