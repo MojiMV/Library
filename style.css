@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(105, 110, 117);
+    background-color: rgb(177, 184, 194);
     overflow: hidden;
 }
 
@@ -31,6 +31,7 @@ table {
     letter-spacing: 1px;
     font-size: 0.8rem;
     margin-top: 25px;
+
 }
 
 td, th {
@@ -87,4 +88,59 @@ td, th {
 .dialog-buttons > button:hover{
     background-color: black;
     color: white;
+}
+
+.row-container{
+    display: flex;
+    position: relative;   
+}
+
+.rowButs-container{
+    position: absolute;
+    right: 200px;
+    top: 100px;
+}
+
+div > svg{
+    width: 20px;
+    height: 20px;
+    fill: black;
+}
+
+td > button{
+    border: none;
+    background: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+td:last-child {
+    border :none;
+    border-right: none;
+    border-above: none;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: none;
+  }
+  
+th:not(:last-child),
+td:not(:last-child) {
+    border: 1px solid black;
+}
+
+.table td {
+    text-align: center; 
+    vertical-align: middle;
+}
+
+dialog::backdrop{
+    background: rgb(0, 0, 0, 0.7);    
+}
+
+dialog{
+    width: 20%;
+    font-family: sans-serif;
+    font-weight: bold;
 }
